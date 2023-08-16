@@ -154,7 +154,7 @@ SELECT * FROM hi;
 3. 변경사항을 데이터베이스에 적용
 - python manage.py migrate
 
-4. 프로젝트에서 해당 마이그래이션 상태를 나열새 보자
+4. 프로젝트에서 해당 마이그래이션 상태를 나열해 보자
 - python manage.py showmigrations
 
 #### cf ) " no changes detected  "오류체크
