@@ -62,6 +62,24 @@ SELECT * FROM hi;
 
 ---
 
+# GitHub
+## GitHub에서 사용하는 Git 기반의 기본적인 명령어(VSCode)
+1. git add [파일명]: 변경된 파일을 스테이징 영역(인덱스)에 추가합니다.
+	- $ git add 파일명
+2. git commit -m "[커밋 메시지]": 스테이징된 변경 사항을 커밋으로 저장합니다.
+	- $ git commit -m "첫 번째 커밋"
+
+3. git status: 작업 디렉토리의 변경 상태를 확인합니다.
+	- $ git status
+4. git log: 커밋 기록을 확인합니다.
+	- $ git log
+5. git remote add [원격 리포지토리 이름] [URL]: 원격 리포지토리를 로컬에 추가합니다.
+	- $ git remote add origin https://github.com/사용자이름/리포지토리이름.git
+6. git push [원격 리포지토리 이름] [로컬 브랜치 이름]: 커밋된 변경 사항을 원격 리포지토리로 푸시합니다.
+	- $ git push origin main
+7. git pull [원격 리포지토리 이름] [원격 브랜치 이름]: 원격 리포지토리의 변경 사항을 로컬로 가져와 병합합니다.
+	- $ git pull origin main
+
 # 지난주 수업내용
 ## 장고 start -> 앱 만들기 -> 모델정의 -> 마이그레이션 -> 플래시 메시지 -> 장고 관리자 -> 장고 레이아웃 및 폼양식 -> 템플릿 만들기
 -> 편집 폼 양식 및 레이아웃 -> 삭제 폼 레이아웃 -> 로그인/로그아웃
