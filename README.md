@@ -43,7 +43,7 @@ SELECT * FROM hi;
 
 ## 이미지
 
-![이미지](./image.jpg)
+![이미지](./apple.jpg)
 
 ## 인용문
 
