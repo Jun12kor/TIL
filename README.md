@@ -39,7 +39,7 @@ SELECT * FROM hi;
 
 [구글](https://google.com)
 
-[파이썬코드](./main.py)
+[파이썬코드](./settings.py)
 
 ## 이미지
 
