@@ -80,6 +80,66 @@ SELECT * FROM hi;
 7. git pull [원격 리포지토리 이름] [원격 브랜치 이름]: 원격 리포지토리의 변경 사항을 로컬로 가져와 병합합니다.
 	- $ git pull origin main
 
+# Git/GitHub 활용 실습
+
+## 프로젝트 - 프로필
+
+1. 프로젝트 시작 
+	- 바탕화면에 폴더
+	- README.md 파일이 반드시 필요
+	- git 저장소로 만들고 커밋
+
+2. GitHub
+	- 원격저장소 이름은 **반드시 여러분의 'username'으로!**
+	- 원격저장소 설정을 마무리하고 push하면 끝!
+
+3. 프로필 확인 : https://github.com/username
+
+4. 실습 완료 후 체크 시트에 링크 업데이트
+
+5. 구글에 GitHub Profile Readme라고 검색해보시면 정말 다앙하게 꾸미고, 설정 할 수 있는 방법이 있습니다
+
+### 프로젝트 초기 설정
+```bash
+git init
+```
+
+### 원격 저장소 프록젝트로 시작하기
+
+## 브래치 활용
+```bash
+git branch # 브랜치 목록
+git branch 브랜치이름 # 브랜치 생성
+git checkout 브랜치이름 # 브랜치 이동
+git branch d 브랜치이름 # 브랜치 삭제
+```
+
+```bash
+git merge 브랜치이름
+```
+
+## 기타 명령어
+
+### git add를 취소
+```bash
+git reset 파일이름
+```
+
+### 커밋 메시지를 변경
+```bash
+git commit --amend
+```
+
+### 커밋을 취소
+```bash
+git reset HEAD~1 # 이전 커밋으로 되돌리기:
+git revert <커밋 해시> #커밋 취소 커밋 만들기
+```
+
+
+
+
+
 # 지난주 수업내용
 ## 장고 start -> 앱 만들기 -> 모델정의 -> 마이그레이션 -> 플래시 메시지 -> 장고 관리자 -> 장고 레이아웃 및 폼양식 -> 템플릿 만들기
 -> 편집 폼 양식 및 레이아웃 -> 삭제 폼 레이아웃 -> 로그인/로그아웃
