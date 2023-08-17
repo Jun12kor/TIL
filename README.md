@@ -136,6 +136,14 @@ git reset HEAD~1 # 이전 커밋으로 되돌리기:
 git revert <커밋 해시> #커밋 취소 커밋 만들기
 ```
 
+#### 참고 
+
+Git 커밋 메시지를 입력할 때 Visual Studio Code가 열리고, 메시지 입력 후 편집기를 닫으면 Git이 해당 메시지를 사용하여 커밋을 생성하게 됩니다.
+
+```bash
+git config --global core.editor "code --wait"
+```
+
 
 
 
