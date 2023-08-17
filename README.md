@@ -122,7 +122,7 @@ git merge 브랜치이름
 
 ### git add를 취소
 ```bash
-git reset 파일이름
+git restore --staged 파일이름
 ```
 
 ### 커밋 메시지를 변경
@@ -135,6 +135,8 @@ git commit --amend
 git reset HEAD~1 # 이전 커밋으로 되돌리기:
 git revert <커밋 해시> #커밋 취소 커밋 만들기
 ```
+
+
 
 
 
